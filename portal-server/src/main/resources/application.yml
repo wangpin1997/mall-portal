@@ -1,0 +1,18 @@
+server:
+  port: 8888
+
+# 自定义redis key
+redis:
+  key:
+    prefix:
+      authCode: "portal:authCode:"
+      orderId: "portal:orderId:"
+    expire:
+      authCode: 90 # 验证码超期时间
+
+
+# 消息队列定义
+rabbitmq:
+  queue:
+    name:
+      cancelOrder: cancelOrderQueue

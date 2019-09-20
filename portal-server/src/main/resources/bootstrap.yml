@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: portal
+
+  cloud:
+    nacos:
+      config:
+        server-addr: localhost:8848
+        name: ${spring.application.name}
+        shared-dataids: nacos.yml,redis.yml,rabbitmq.yml,db.user.yml #如是eureka注册，将nacos换成对应的eureka即可
+        file-extension: yml
+        namespace: 75361628-fff1-43cf-bd04-4b887b16de02
+        refreshable-dataids: nacos.yml,redis.yml,rabbitmq.yml,db.user.yml #如是eureka注册，将nacos换成对应的eureka即可
+  profiles:
+    active: test
+  main:
+    allow-bean-definition-overriding: true
