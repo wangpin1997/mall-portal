@@ -35,7 +35,7 @@ public class Swagger2Config {
 
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
-                .title("后台API接口列表")
+                .title("前台API接口列表")
                 .description("")
                 .version("1.0")
                 .build();
