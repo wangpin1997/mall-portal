@@ -50,7 +50,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                         "/home/**"//首页接口
                 )
                 .permitAll()
-                .antMatchers("/member/**","/returnApply/**")// 测试时开启
+                .antMatchers("/member/**","/returnApply/**","/product/**")// 测试时开启
                 .permitAll()
                 .anyRequest()// 除上面外的所有请求全部需要鉴权认证
                 .authenticated()

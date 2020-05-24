@@ -3,9 +3,9 @@ package cn.wpin.mall.portal.controller;
 
 import cn.wpin.mall.common.entity.CommonResult;
 import cn.wpin.mall.order.entity.CartItem;
-import cn.wpin.mall.portal.entity.CartProduct;
-import cn.wpin.mall.portal.entity.CartPromotionItem;
 import cn.wpin.mall.portal.service.CartItemService;
+import cn.wpin.mall.product.entity.CartProduct;
+import cn.wpin.mall.sale.entity.CartPromotionItem;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;

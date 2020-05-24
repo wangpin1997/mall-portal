@@ -2,7 +2,7 @@ package cn.wpin.mall.portal.controller;
 
 
 import cn.wpin.mall.common.entity.CommonResult;
-import cn.wpin.mall.portal.entity.OrderReturnApplyParam;
+import cn.wpin.mall.order.dto.OrderReturnApplyParam;
 import cn.wpin.mall.portal.service.PortalOrderReturnApplyService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;

@@ -2,11 +2,11 @@ package cn.wpin.mall.portal.controller;
 
 
 import cn.wpin.mall.common.entity.CommonResult;
-import cn.wpin.mall.portal.entity.CartPromotionItem;
-import cn.wpin.mall.portal.entity.CouponHistoryDetail;
 import cn.wpin.mall.portal.service.CartItemService;
 import cn.wpin.mall.portal.service.MemberCouponService;
+import cn.wpin.mall.sale.entity.CartPromotionItem;
 import cn.wpin.mall.sale.entity.CouponHistory;
+import cn.wpin.mall.sale.entity.CouponHistoryDetail;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiOperation;

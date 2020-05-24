@@ -3,7 +3,7 @@ package cn.wpin.mall.portal.service;
 
 import cn.wpin.mall.client.order.PortalOrderReturnApplyClient;
 import cn.wpin.mall.common.entity.CommonResult;
-import cn.wpin.mall.portal.entity.OrderReturnApplyParam;
+import cn.wpin.mall.order.dto.OrderReturnApplyParam;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

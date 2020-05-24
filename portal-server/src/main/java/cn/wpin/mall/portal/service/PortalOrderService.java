@@ -3,10 +3,10 @@ package cn.wpin.mall.portal.service;
 
 import cn.wpin.mall.client.order.PortalOrderClient;
 import cn.wpin.mall.common.entity.CommonResult;
+import cn.wpin.mall.order.entity.ConfirmOrderResult;
 import cn.wpin.mall.order.entity.Order;
+import cn.wpin.mall.order.entity.OrderParam;
 import cn.wpin.mall.portal.component.CancelOrderSender;
-import cn.wpin.mall.portal.entity.ConfirmOrderResult;
-import cn.wpin.mall.portal.entity.OrderParam;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
